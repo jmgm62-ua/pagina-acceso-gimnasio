@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Simple</title>
     <style>
+
         body {
             font-family: Arial, sans-serif;
             display: flex;
@@ -13,13 +14,26 @@
             height: 100vh;
             margin: 0;
             background-color: #f4f4f9;
+            padding: 10px;
+            text-align: center;
         }
+        
         h1 {
             color: #333;
+            font-size: 2rem;
+        }
+        
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            body {
+                padding: 20px;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>¡El usuario puede acceder al gimnasio!</h1>
+    <h1>¡Hola, esta es mi página simple!</h1>
 </body>
 </html>
