@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Simple</title>
     <style>
-
+        /* Estilos generales */
         body {
             font-family: Arial, sans-serif;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -17,12 +18,21 @@
             padding: 10px;
             text-align: center;
         }
-        
+
         h1 {
             color: #333;
             font-size: 2rem;
+            margin-top: 20px;
         }
-        
+
+        /* Estilo para la imagen */
+        img {
+            max-width: 100%;
+            height: auto;
+            width: 200px;
+        }
+
+        /* Ajustes específicos para dispositivos móviles */
         @media (max-width: 600px) {
             h1 {
                 font-size: 1.5rem;
@@ -34,6 +44,7 @@
     </style>
 </head>
 <body>
-    <h1>¡Hola, esta es mi página simple!</h1>
+    <h1>¡El usuario puede acceder al gimnasio!</h1>
+    <img src="https://png.pngtree.com/png-clipart/20191121/original/pngtree-gym-logo-png-image_5149987.jpg" alt="Gym Logo">
 </body>
 </html>
